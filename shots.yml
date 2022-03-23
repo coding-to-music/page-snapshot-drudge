@@ -4,34 +4,15 @@
 - url: https://www.zerohedge.com
   output: zerohedge.png
   height: 1200
-- url: https://www.latimes.com/
-  output: latimes.jpg
-  width: 1600
-  height: 1600
-  quality: 80
-  wait: 2000
-  javascript: |
-    document.querySelectorAll(
-      '[data-ad-rendered],#ensNotifyBanner'
-    ).forEach(el => el.style.display = 'none')
-- url: https://www.BostonGlobe.com/
-  output: BostonGlobe.jpg
-  width: 1600
-  height: 1600
-  quality: 80
-  wait: 2000
-  javascript: |
-    document.querySelectorAll(
-      '[data-ad-rendered],#ensNotifyBanner'
-    ).forEach(el => el.style.display = 'none')  
-- url: https://www.NYTimes.com/
-  output: NYTimes.jpg
-  width: 1600
-  height: 1600
-  quality: 80
-  wait: 2000
-  javascript: |
-    document.querySelectorAll(
-      '[data-ad-rendered],#ensNotifyBanner'
-    ).forEach(el => el.style.display = 'none')     
-    
+
+- url: https://www.latimes.com
+  output: latimes.png
+  height: 1200
+
+- url: https://www.BostonGlobe.com
+  output: BostonGlobe.png
+  height: 1200
+
+- url: https://www.NYTimes.com
+  output: NYTimes.png
+  height: 1200
