@@ -1,3 +1,6 @@
 - url: https://www.drudgereport.com
-  output: shot.png
-  height: 800
+  output: drudgereport.png
+  height: 1200
+- url: https://www.zerohedge.com
+  output: zerohedge.png
+  height: 1200
